@@ -18,13 +18,14 @@ public class NumberGames {
             System.out.println("You Have " + i + " Guess Left. Choose Again");
             int guess = scanner.nextInt();
 
+            // Random Number = 15. Gess = 1, then one of the three will be true
             if (randomNumber < guess){
                 System.out.println("Its smaller then " + guess + "Guess");
             }
-            if (randomNumber > guess){
+            else if (randomNumber > guess){
                 System.out.println("Its larger then " + guess + "Guess");
             }
-            if (randomNumber == guess){
+            else {
                 hasWon = true;
                 break;
             }
