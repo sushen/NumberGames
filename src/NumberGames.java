@@ -32,6 +32,9 @@ public class NumberGames {
         }
         if (hasWon){
             System.out.println("CORRECT ...... You Won!!");
+        }else {
+            System.out.println(" Game Over ...... You Lose!!");
+            System.out.println(" The Random Number was " + randomNumber);
         }
     }
 }
