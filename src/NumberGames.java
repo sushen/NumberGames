@@ -36,14 +36,16 @@ public class NumberGames{
             }
         }
 
-    //        If they guessed the number right end the loop and tell them they've won.
+//      If they guessed the number right end the loop and tell them they've won.
         if (hasWon){
             System.out.println("You win");
-        }else {
+        }
+//      If they used up all 10 guesses end the loop and tell them they've lost.
+        else {
             System.out.println("You Loss, The number you try to find is "+ rangomNumber);
 
         }
-    //        If they used up all 10 guesses end the loop and tell them they've lost.
+
 
     }
 }
